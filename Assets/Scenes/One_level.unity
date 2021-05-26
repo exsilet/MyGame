@@ -11755,11 +11755,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 640445911121109298, guid: db60ca29c9896c642914abe7d9bc8d60,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.09503174
+      objectReference: {fileID: 0}
+    - target: {fileID: 2004657451944379642, guid: db60ca29c9896c642914abe7d9bc8d60,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.0429688
+      objectReference: {fileID: 0}
     - target: {fileID: 3847960352243539292, guid: db60ca29c9896c642914abe7d9bc8d60,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 656294874}
+    - target: {fileID: 4483764831048990273, guid: db60ca29c9896c642914abe7d9bc8d60,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00012207031
+      objectReference: {fileID: 0}
     - target: {fileID: 4640879042288863068, guid: db60ca29c9896c642914abe7d9bc8d60,
         type: 3}
       propertyPath: m_FontData.m_BestFit
@@ -11788,6 +11803,11 @@ PrefabInstance:
     - target: {fileID: 4640879042344720500, guid: db60ca29c9896c642914abe7d9bc8d60,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640879042353955903, guid: db60ca29c9896c642914abe7d9bc8d60,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4640879042545727280, guid: db60ca29c9896c642914abe7d9bc8d60,
@@ -11919,6 +11939,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_BestFit
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640879044049863338, guid: db60ca29c9896c642914abe7d9bc8d60,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ContinueTheGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640879044049863338, guid: db60ca29c9896c642914abe7d9bc8d60,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Menu, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db60ca29c9896c642914abe7d9bc8d60, type: 3}

@@ -54,6 +54,6 @@ public class GameOverScreen : MonoBehaviour
 
     private void OnExitMenu()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 }

@@ -8,12 +8,16 @@ public class Menu : MonoBehaviour
     public void ClosePanel(GameObject panel)
     {
         panel.SetActive(false);
-        Time.timeScale = 1;
     }
 
     public void OpenPanel(GameObject panel)
     {
         panel.SetActive(true);
+    }
+
+    public void ContinueTheGame(GameObject panel)
+    {
+        panel.SetActive(false);
         Time.timeScale = 1;
     }
 
