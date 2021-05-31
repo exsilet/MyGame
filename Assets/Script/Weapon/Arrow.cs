@@ -14,11 +14,6 @@ public class Arrow : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.TryGetComponent<EnemyControler>(out EnemyControler enemyControler))
-        {
-            enemyControler.TakeDamage(_damage);
-            Destroy(gameObject);
-        }
         if (collision.gameObject.TryGetComponent<Enemy>(out Enemy enemy))
         {
             enemy.TakeDamage(_damage);

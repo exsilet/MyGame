@@ -18,11 +18,6 @@ public class Blade : MonoBehaviour
         if (hit.collider != null)
         {
             Debug.Log("Враг" + hit.collider);
-            if (hit.collider.gameObject.TryGetComponent<EnemyControler>(out EnemyControler enemyControler))
-            {
-                enemyControler.TakeDamage(_damage);
-                Destroy(gameObject, 0.01f);
-            }
             if (hit.collider.gameObject.TryGetComponent<Enemy>(out Enemy enemy))
             {
                 enemy.TakeDamage(_damage);

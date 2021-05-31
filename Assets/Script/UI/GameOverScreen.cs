@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using IJunior.TypedScenes;
 
 [RequireComponent(typeof(CanvasGroup))]
 public class GameOverScreen : MonoBehaviour
@@ -49,11 +49,11 @@ public class GameOverScreen : MonoBehaviour
     private void OnRestartButtonClick()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(1);
+        One_level.Load();
     }
 
     private void OnExitMenu()
     {
-        SceneManager.LoadScene(0);
+        Menu_Game.Load();
     }
 }

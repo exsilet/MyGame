@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using IJunior.TypedScenes;
 
 public class Menu : MonoBehaviour
 {
@@ -28,12 +28,12 @@ public class Menu : MonoBehaviour
 
     public void ExitMenu()
     {
-        SceneManager.LoadScene(0);
+        Menu_Game.Load();
     }
 
     public void ResetLevel()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(1);
+        One_level.Load();
     }
 }
