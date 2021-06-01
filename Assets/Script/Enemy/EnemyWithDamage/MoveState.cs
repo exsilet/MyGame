@@ -26,11 +26,6 @@ public class MoveState : State
     private void Reflect(int move)
     {
         transform.localScale = new Vector3(move, 1, 1);
-
-        //Vector3 direction = targetPlaye.position - transform.position;
-        //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        //Quaternion rotacion = Quaternion.AngleAxis(angle, Vector3.up);
-        //transform.rotation = Quaternion.RotateTowards(transform.rotation, rotacion, 180);
     }
 
     public void LookAtPlayer()
