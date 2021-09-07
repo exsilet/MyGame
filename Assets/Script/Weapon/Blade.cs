@@ -23,11 +23,6 @@ public class Blade : MonoBehaviour
                 enemy.TakeDamage(_damage);
                 Destroy(gameObject, 0.01f);
             }
-            if (hit.collider.gameObject.TryGetComponent<Box>(out Box box))
-            {
-                box.TakeDamage(_damage);
-                Destroy(gameObject, 0.01f);
-            }
         }
         else
         {
